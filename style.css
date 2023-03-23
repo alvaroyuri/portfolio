@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+body {
+       
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container {
+   
+    background-color: #ECF4FF;
+    margin: 64px;
+    color: #1c1c1c;
+    border-radius: 20px;
+    padding: 64px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+
+    }
+
+.container a {
+text-decoration: none;
+color: #1c1c1c;
+
+}
+
+  
+
+.cabecalho {
+
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.perfil {
+    display: flex;
+    
+  }
+
+  .perfil-foto {
+
+    border-radius: 460px;
+    width: 158px;
+    height: 160px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        
+}
+
+.titulo {
+    margin-left: 16px;
+
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+}
+
+.titulo h3 {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+
+
+.titulo h4 {
+    font-weight: 100;
+    font-size: 12;
+    line-height: 14px;
+}
+
+
+
+.portfolio {
+
+    /* display: flex;
+    flex-direction:row;
+    justify-content:space-between; */
+
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+
+    
+    
+
+}
+
+
+.projetos {
+
+    
+    
+    max-height: 900px;
+    overflow-y: scroll;
+    scrollbar-width:thin;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 8px 32px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    background-image: linear-gradient(120deg, #f5e7ba 0%, #f8c4b6 100%);
+   
+    min-width: 1200px;
+    
+}
+
+
+
+.conquistas {
+    
+    max-height: 900px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+    padding: 8px 32px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    background-image: linear-gradient(120deg, #f5e7ba 0%, #f8c4b6 100%);
+
+    min-width: 240px;
+
+}
+
+
+.conquistas ul {
+
+    list-style: none;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 0px;
+
+
+}
+
+.conquistas li {
+
+    list-style-type: none;
+    
+
+}
+
+.conquistas img {
+    
+    max-height: 250px;
+
+}
+
+
+.projetos ul {
+    
+    list-style: none;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 0px;
+  
+}
+
+
+.projetos li {
+  
+list-style-type: none;
+font-weight: 400;
+font-size: 20;
+line-height: 2em;
+
+}
+
+
+
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+
+.itemlista {
+    
+    margin-top: 18px;
+
+}
+
+
+
+
+
+
+
+.dark {
+
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+
+    
+}
+
+
+.dark .container {
+   
+    background: #333439;
+    margin: 64px;
+    color: #fffcfc;
+    border-radius: 20px;
+    padding: 64px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+
+    }
+
+.dark .container .projetos {
+
+    max-height: 900px;
+    overflow-y: scroll;
+    scrollbar-width:thin;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 8px 32px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+   
+    min-width: 1200px;
+
+    
+
+}
+
+.dark .container .conquistas {
+    
+    
+     
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+    padding: 8px 32px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+
+    max-height: 900px;
+    min-width: 240px;
+
+}
+
+.dark .button-62 {
+    background: linear-gradient(to bottom right, #384af0, #82bcf3);
+    border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  }
+  
+  .dark .button-62:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(56, 75, 240, 0.5), -.125rem -.125rem 1rem rgba(71, 149, 239, 0.5), .125rem .125rem 1rem rgba(10, 14, 241, 0.5);
+  }
+
+
+ .dark .container a {
+    text-decoration: none;
+    color: #f7f5f5;
+    
+    }
